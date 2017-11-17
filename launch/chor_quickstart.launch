@@ -1,6 +1,6 @@
 <launch>
   <node name="turtle1" pkg="turtlesim" type="turtlesim_node"/>
   <node name="choreographer" pkg="choreographer" type="choreographer.py">
-    <param name="Speed" value="5"/>
+    <param name="speed" value="5"/>
   </node>
 </launch>
