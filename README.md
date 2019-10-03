@@ -1,4 +1,4 @@
-## choreographer - v1.0.0
+## choreographer
 
 This ROS package is designed to interface directly with a running `turtlesim` node. Upon runtime, this code will publish values for linear and angular velocity in order to influence an active turtle to follow a predetermined path. No input is necessary to utilize this package, however a Speed parameter can be passed to the node to override the default path traversal rate. 
 
